@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Plataforma de administracion de ventas"/>
+		<title>Plataforma</title>
+		<link rel="stylesheet"  href="normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="estilos/plataforma.css">
+	</head>
+	<body>
+		<header>
+			<!--
+			<figure id="logo">
+				<a href="index.html">
+					<img src="logo.jpg"/>
+				</a>
+			</figure>
+			-->
+			<h1>
+				<a href="index.html">New!Sale</a>
+			</h1>
+		</header>
+		<section>
+			<h1>
+				Ingresa los datos de la venta:
+			</h1>
+			<form id="formIngresoCliente" action="datos.html" method="post" class="form_1" >
+				<!-- Ingreso del nombre completo-->
+				<input type="text" name="nombre" id="nombre" placeholder="Nombre completo"required />
+
+				<br/>
+
+				<!-- Ingreso del email o telefono-->
+				<input type="email" name="email" placeholder="E-mail"/>
+				<br/>
+				<input type="number" name="telefono" placeholder="Telefono"/>
+
+				<br/>
+				<br/>
+
+				<!-- Detalles de la compra -->
+				<input type="number" name="cantidad" placeholder="Cantidad" />
+				<input type="text" name="producto"  placeholder="Producto"/>
+				<input type="text" name="codigo"  Placeholder="Codigo"/>
+				<input type="number" name="precio"  placeholder="Precio"/>
+				<input type="number" name="subtotal" placeholder="Subtotal"/>
+			<br/>
+
+				<!-- Detalles de la compra -->
+				<input type="number" name="total" placeholder="Total"/>
+			<br/>
+				<button>Ingresar</button>
+		</form>
+
+
+
+		</section>
+	</body>
+</html>
